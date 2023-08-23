@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-study-0823/static/css/main.afee6af6.css",
+    "main.js": "/react-study-0823/static/js/main.44335cf4.js",
+    "static/js/787.a7e1c86f.chunk.js": "/react-study-0823/static/js/787.a7e1c86f.chunk.js",
+    "static/media/logo.svg": "/react-study-0823/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/react-study-0823/index.html",
+    "main.afee6af6.css.map": "/react-study-0823/static/css/main.afee6af6.css.map",
+    "main.44335cf4.js.map": "/react-study-0823/static/js/main.44335cf4.js.map",
+    "787.a7e1c86f.chunk.js.map": "/react-study-0823/static/js/787.a7e1c86f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.afee6af6.css",
+    "static/js/main.44335cf4.js"
+  ]
+}
