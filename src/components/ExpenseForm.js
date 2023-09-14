@@ -2,12 +2,12 @@ import React from 'react';
 import './ExpenseForm.css';
 
 
-const ExpenseFrom = ({ handleCharge, charge, amount, handleAmount, handleSubmit, edit }) => {
+const ExpenseForm = ({ handleCharge, charge, amount, handleAmount, handleSubmit, edit }) => {
     return (
       <form onSubmit={handleSubmit}>
       <div className="form-center">
         <div className='form-group'>
-          <label htmlFor="expense">지출항목</label>
+          <label htmlFor="charge">지출항목</label>
           <input
             type='text'
             className='form-control'
@@ -20,12 +20,12 @@ const ExpenseFrom = ({ handleCharge, charge, amount, handleAmount, handleSubmit,
         </div>
 
         <div className='form-group'>
-          <label htmlFor="charge">비용</label>
+          <label htmlFor="amount">비용</label>
           <input
             type='number'
             className='form-control'
             id='amount'
-            name='charge'
+            name='amount'
             placeholder='예) 100'
             onChange={handleAmount}
             value={amount}
@@ -42,4 +42,4 @@ const ExpenseFrom = ({ handleCharge, charge, amount, handleAmount, handleSubmit,
   
 }
 
-export default ExpenseFrom;
+export default ExpenseForm;
