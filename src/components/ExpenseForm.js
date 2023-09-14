@@ -42,4 +42,4 @@ const ExpenseForm = ({ handleCharge, charge, amount, handleAmount, handleSubmit,
   
 }
 
-export default ExpenseFrom;
+export default ExpenseForm;
